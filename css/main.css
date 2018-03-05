@@ -2,18 +2,25 @@ body {
   background-color: #F5F7F9;
   font: "Open Sans", sans-serif; }
 
+/*nav*/
 .desktop-nav {
   background-color: #FFFFFF;
   color: #063D7A; }
 
+#logo {
+  width: 14rem;
+  background-color: #063D7A; }
+
 .desktop-nav > ul {
-  padding: 2rem; }
+  padding: 1rem; }
 
 .nav-icon {
   display: inline;
   text-decoration: none; }
 
-#logo {
-  width: 14rem; }
+.nav-icon > img {
+  height: 1.5rem; }
+
+/*header*/
 
 /*# sourceMappingURL=main.css.map */
