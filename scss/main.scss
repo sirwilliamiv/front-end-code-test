@@ -1,14 +1,84 @@
 
-$background: lightgrey;
-$font:'Open Sans', sans-serif;
+$white: #FFFFFF;
+$night: #063D7A;
+$asphalt: #1F2532;
+$cadet: #465561;
+$evening: #1E71CD;
+$steam: #F5F7F9;
+$font-stack:'Open Sans', sans-serif;
+
+
 
 
 body {
 
-  background-color: $background;
-  font: $font;
+  background-color: $steam;
+  font: $font-stack;
 }
 
-img {
-  width: 300px;
+/*nav*/
+.desktop-nav {
+  background-color: $white;
+  margin-bottom: 2px;
+
+}
+#logo {
+  width: 14rem;
+  background-color: $night;
+}
+.desktop-nav > ul {
+  padding: 1rem;
+}
+
+.nav-link {
+  color: $evening;
+}
+.nav-icon {
+  display: inline;
+  text-decoration: none;
+}
+.nav-icon-group {
+  text-align: right;
+}
+.nav-icon > img {
+  height: 2rem;
+  margin: .5rem;
+
+}
+
+/*header*/
+.header {
+  background-color: $white;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  color: $asphalt;
+  padding: 1rem 0 .5rem 0;
+
+}
+.header-divider {
+  background-color: $evening;
+  height: 2.5px;
+  width: 12rem;
+}
+.subheader {
+  padding: .5rem 0 1.5rem 0;
+}
+
+.subheader-text {
+  color: $cadet;
+  display: inline;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 25px;
+
+}
+#home-icon {
+  display: inline;
+  height: 1.3rem;
+  margin-right: .5rem;
 }
