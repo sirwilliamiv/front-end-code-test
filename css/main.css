@@ -1,8 +1,19 @@
 body {
-  background-color: lightgrey;
+  background-color: #F5F7F9;
   font: "Open Sans", sans-serif; }
 
-img {
-  width: 300px; }
+.desktop-nav {
+  background-color: #FFFFFF;
+  color: #063D7A; }
+
+.desktop-nav > ul {
+  padding: 2rem; }
+
+.nav-icon {
+  display: inline;
+  text-decoration: none; }
+
+#logo {
+  width: 14rem; }
 
 /*# sourceMappingURL=main.css.map */
