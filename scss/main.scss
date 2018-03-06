@@ -40,10 +40,17 @@ body {
 .nav-icon-group {
   text-align: right;
 }
-.nav-icon > img {
-  height: 2rem;
-  margin: .5rem;
+.nav-icon {
+  font-size: 1.5rem;
+  opacity: .5;
+  padding-left: 1.5rem;
 
+}
+#phone-icon {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /*header*/
@@ -130,8 +137,41 @@ h2 {
 
 }
 
+/*Aside*/
+.aside-button {
+  margin-left: 1rem;
+}
+.aside-button-background {
+  background-color: $cadet;
+  color: $white;
+}
+
 /*footer*/
 
 footer {
-  background-color: lightblue;
+  background-color: $white;
+  margin-top: 2rem;
+}
+.footer-address {
+  color: $cadet;
+  margin-top: 1rem;
+}
+.footer-telephone {
+  color: $evening;
+}
+.nav-footer-link {
+  color: $cadet;
+  display: block;
+  text-decoration: underline;
+}
+.footer-heading {
+  margin-top: 3rem;
+}
+
+.social-media-links a {
+  color: $evening;
+  font-size:2rem;
+  padding-right: 1.5rem;
+
+
 }
