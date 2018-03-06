@@ -40,10 +40,17 @@ body {
 .nav-icon-group {
   text-align: right;
 }
-.nav-icon > img {
-  height: 2rem;
-  margin: .5rem;
+.nav-icon {
+  font-size: 1.5rem;
+  opacity: .5;
+  padding-left: 1.5rem;
 
+}
+#phone-icon {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /*header*/
@@ -52,7 +59,6 @@ body {
 }
 
 h1 {
-  font-size: 34px;
   font-weight: 400;
   line-height: 40px;
   color: $asphalt;
@@ -81,4 +87,91 @@ h1 {
   display: inline;
   height: 1.3rem;
   margin-right: .5rem;
+}
+
+/*main content*/
+
+h2 {
+  color:$cadet;
+  font-weight: 300;
+  line-height: 37px;
+  padding: 2rem 0 0 0;
+}
+.card {
+  box-shadow: 0 2px 4px 0 rgba(31, 37, 50, 0.2);
+  margin: 1.5rem 0 0 0;
+
+}
+.card-result {
+ flex-direction: row;
+}
+.card-content {
+  color: $cadet;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.625;
+  float: left;
+  width: 30%;
+
+}
+.card-img {
+  float: left;
+  width: 40%;
+}
+.card-img img {
+  padding: 2rem;
+  width: 100%;
+  /*display: inline-block;*/
+}
+.card-button {
+   margin-left: 1rem;
+}
+.card-button-read-more {
+  color: $cadet;
+  font-weight: 600;
+}
+
+.card-button-join {
+  font-weight: 600;
+  padding-left: 3rem;
+
+}
+
+/*Aside*/
+.aside-button {
+  margin-left: 1rem;
+}
+.aside-button-background {
+  background-color: $cadet;
+  color: $white;
+}
+
+/*footer*/
+
+footer {
+  background-color: $white;
+  margin-top: 2rem;
+}
+.footer-address {
+  color: $cadet;
+  margin-top: 1rem;
+}
+.footer-telephone {
+  color: $evening;
+}
+.nav-footer-link {
+  color: $cadet;
+  display: block;
+  text-decoration: underline;
+}
+.footer-heading {
+  margin-top: 3rem;
+}
+
+.social-media-links a {
+  color: $evening;
+  font-size:2rem;
+  padding-right: 1.5rem;
+
+
 }
