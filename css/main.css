@@ -101,8 +101,37 @@ h2 {
   font-weight: 600;
   padding-left: 3rem; }
 
+/*Aside*/
+.aside-button {
+  margin-left: 1rem; }
+
+.aside-button-background {
+  background-color: #465561;
+  color: #FFFFFF; }
+
 /*footer*/
 footer {
-  background-color: lightblue; }
+  background-color: #FFFFFF;
+  margin-top: 2rem; }
+
+.footer-address {
+  color: #465561;
+  margin-top: 1rem; }
+
+.footer-telephone {
+  color: #1E71CD; }
+
+.nav-footer-link {
+  color: #465561;
+  display: block;
+  text-decoration: underline; }
+
+.footer-heading {
+  margin-top: 3rem; }
+
+.social-media-links a {
+  color: #1E71CD;
+  font-size: 2rem;
+  padding-right: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
